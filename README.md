@@ -1,0 +1,1 @@
+# This is just a demo for typesciprt which create by react and rollup.
