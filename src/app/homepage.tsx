@@ -1,6 +1,6 @@
 import React from 'react'
 interface Props {
-  name: String
+  name?: String
 }
 class HelloComponent extends React.Component {
   constructor(props: Props) {
