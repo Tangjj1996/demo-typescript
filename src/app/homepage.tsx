@@ -1,14 +1,16 @@
 import React from 'react'
 interface Props {
-  name?: String
+  name: String
 }
 class HelloComponent extends React.Component {
+  public state
   constructor(props: Props) {
     super(props)
+    this.state = props.name
   }
   render() {
     return (
-     <div>hahahah</div>
+     <div>{this.state}</div>
     )
   }
 }
